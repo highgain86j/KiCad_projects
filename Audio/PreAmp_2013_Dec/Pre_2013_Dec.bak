@@ -1,0 +1,325 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:my_transistors
+LIBS:Pre_2013_Dec-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "17 dec 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR01
+U 1 1 52B00B7B
+P 2650 2750
+F 0 "#PWR01" H 2650 2750 30  0001 C CNN
+F 1 "GND" H 2650 2680 30  0001 C CNN
+F 2 "" H 2650 2750 60  0000 C CNN
+F 3 "" H 2650 2750 60  0000 C CNN
+	1    2650 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 52B00B73
+P 2650 2400
+F 0 "R1" V 2730 2400 40  0000 C CNN
+F 1 "R" V 2657 2401 40  0000 C CNN
+F 2 "~" V 2580 2400 30  0000 C CNN
+F 3 "~" H 2650 2400 30  0000 C CNN
+	1    2650 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R2
+U 1 1 52B00B66
+P 3000 2050
+F 0 "R2" V 3080 2050 40  0000 C CNN
+F 1 "R" V 3007 2051 40  0000 C CNN
+F 2 "~" V 2930 2050 30  0000 C CNN
+F 3 "~" H 3000 2050 30  0000 C CNN
+	1    3000 2050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1450 2150 0    60   Input ~ 0
+BUF1_NFB
+$Comp
+L TL082 U1
+U 1 1 52B00AFA
+P 2050 2050
+F 0 "U1" H 2000 2250 60  0000 L CNN
+F 1 "TL082" H 2000 1800 60  0000 L CNN
+F 2 "" H 2050 2050 60  0000 C CNN
+F 3 "" H 2050 2050 60  0000 C CNN
+	1    2050 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 1950 1550 1    60   Input ~ 0
+OPA_V+
+Text GLabel 1950 2550 3    60   Input ~ 0
+OPA_V+
+$Comp
+L POT RV1
+U 1 1 52B02263
+P 650 1950
+F 0 "RV1" H 650 1850 50  0000 C CNN
+F 1 "POT" H 650 1950 50  0000 C CNN
+F 2 "~" H 650 1950 60  0000 C CNN
+F 3 "~" H 650 1950 60  0000 C CNN
+	1    650  1950
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 52B02281
+P 650 2300
+F 0 "#PWR02" H 650 2300 30  0001 C CNN
+F 1 "GND" H 650 2230 30  0001 C CNN
+F 2 "" H 650 2300 60  0000 C CNN
+F 3 "" H 650 2300 60  0000 C CNN
+	1    650  2300
+	1    0    0    -1  
+$EndComp
+Text GLabel 650  1600 1    60   Input ~ 0
+IN
+$Comp
+L 2SA1015 Q1
+U 1 1 52B022DF
+P 3850 1450
+F 0 "Q1" H 3850 1301 40  0000 R CNN
+F 1 "2SA1015" H 3850 1600 40  0000 R CNN
+F 2 "TO92" H 3750 1552 29  0000 C CNN
+F 3 "~" H 3850 1450 60  0000 C CNN
+	1    3850 1450
+	1    0    0    1   
+$EndComp
+Text GLabel 3950 2350 0    60   Input ~ 0
+BUF1_V+
+Text GLabel 3950 1750 0    60   Input ~ 0
+BUF1_V-
+$Comp
+L 2SC1815 Q2
+U 1 1 52B02303
+P 3850 2650
+F 0 "Q2" H 3850 2501 40  0000 R CNN
+F 1 "2SC1815" H 3850 2800 40  0000 R CNN
+F 2 "TO92" H 3750 2752 29  0000 C CNN
+F 3 "~" H 3850 2650 60  0000 C CNN
+	1    3850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 52B023C0
+P 4400 2350
+F 0 "R6" V 4480 2350 40  0000 C CNN
+F 1 "R" V 4407 2351 40  0000 C CNN
+F 2 "~" V 4330 2350 30  0000 C CNN
+F 3 "~" H 4400 2350 30  0000 C CNN
+	1    4400 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 52B023CD
+P 3950 3200
+F 0 "R4" V 4030 3200 40  0000 C CNN
+F 1 "R" V 3957 3201 40  0000 C CNN
+F 2 "~" V 3880 3200 30  0000 C CNN
+F 3 "~" H 3950 3200 30  0000 C CNN
+	1    3950 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 3850 650  0    60   Input ~ 0
+BUF1_V+
+Text GLabel 3850 3450 0    60   Input ~ 0
+BUF1_V-
+$Comp
+L R R5
+U 1 1 52B024C8
+P 4400 1750
+F 0 "R5" V 4480 1750 40  0000 C CNN
+F 1 "R" V 4407 1751 40  0000 C CNN
+F 2 "~" V 4330 1750 30  0000 C CNN
+F 3 "~" H 4400 1750 30  0000 C CNN
+	1    4400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 52B024E6
+P 3950 900
+F 0 "R3" V 4030 900 40  0000 C CNN
+F 1 "R" V 3957 901 40  0000 C CNN
+F 2 "~" V 3880 900 30  0000 C CNN
+F 3 "~" H 3950 900 30  0000 C CNN
+	1    3950 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2650 2650 2750
+Connection ~ 2650 2050
+Wire Wire Line
+	2650 2050 2650 2150
+Wire Wire Line
+	2550 2050 2750 2050
+Wire Wire Line
+	1950 1550 1950 1650
+Wire Wire Line
+	1550 2150 1450 2150
+Wire Wire Line
+	1950 2550 1950 2450
+Wire Wire Line
+	1550 1950 800  1950
+Wire Wire Line
+	650  2200 650  2300
+Wire Wire Line
+	650  1600 650  1700
+Wire Wire Line
+	3850 650  4400 650 
+Wire Wire Line
+	4400 2600 4400 2700
+Wire Wire Line
+	3950 2850 3950 2950
+Wire Wire Line
+	3850 3450 4400 3450
+Wire Wire Line
+	4400 1400 4400 1500
+Wire Wire Line
+	3950 1150 3950 1250
+Wire Wire Line
+	4100 1200 3950 1200
+Connection ~ 3950 1200
+Wire Wire Line
+	4100 2900 3950 2900
+Connection ~ 3950 2900
+Text GLabel 4700 2000 1    60   Input ~ 0
+BUF1_OUT
+$Comp
+L GND #PWR03
+U 1 1 52B02562
+P 4700 3300
+F 0 "#PWR03" H 4700 3300 30  0001 C CNN
+F 1 "GND" H 4700 3230 30  0001 C CNN
+F 2 "" H 4700 3300 60  0000 C CNN
+F 3 "" H 4700 3300 60  0000 C CNN
+	1    4700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 52B0256A
+P 4700 2350
+F 0 "R7" V 4780 2350 40  0000 C CNN
+F 1 "R" V 4707 2351 40  0000 C CNN
+F 2 "~" V 4630 2350 30  0000 C CNN
+F 3 "~" H 4700 2350 30  0000 C CNN
+	1    4700 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 52B02584
+P 4700 2950
+F 0 "R8" V 4780 2950 40  0000 C CNN
+F 1 "R" V 4707 2951 40  0000 C CNN
+F 2 "~" V 4630 2950 30  0000 C CNN
+F 3 "~" H 4700 2950 30  0000 C CNN
+	1    4700 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2000 4700 2100
+Wire Wire Line
+	4700 2600 4700 2700
+Wire Wire Line
+	4700 3200 4700 3300
+Text GLabel 4800 2650 2    60   Input ~ 0
+BUF1_NFB
+Wire Wire Line
+	4700 2650 4800 2650
+Wire Wire Line
+	4400 3450 4400 3100
+Connection ~ 3950 3450
+Wire Wire Line
+	4400 650  4400 1000
+Connection ~ 3950 650 
+Wire Wire Line
+	3950 1750 3950 1650
+Wire Wire Line
+	3950 2350 3950 2450
+Wire Wire Line
+	4400 2000 4400 2100
+Connection ~ 4400 2050
+Wire Wire Line
+	3650 1450 3350 1450
+Wire Wire Line
+	3350 1450 3350 2650
+Wire Wire Line
+	3350 2650 3650 2650
+Wire Wire Line
+	3250 2050 3350 2050
+Connection ~ 3350 2050
+Wire Wire Line
+	4400 2050 4700 2050
+Connection ~ 4700 2050
+$Comp
+L 2SA1359 Q4
+U 1 1 52B04DFF
+P 4300 2900
+F 0 "Q4" H 4300 2751 40  0000 R CNN
+F 1 "2SA1359" H 4300 3050 40  0000 R CNN
+F 2 "TO126" H 4200 3002 29  0000 C CNN
+F 3 "~" H 4300 2900 60  0000 C CNN
+	1    4300 2900
+	1    0    0    1   
+$EndComp
+$Comp
+L 2SC3422 Q3
+U 1 1 52B04F04
+P 4300 1200
+F 0 "Q3" H 4300 1051 40  0000 R CNN
+F 1 "2SC3422" H 4300 1350 40  0000 R CNN
+F 2 "TO126" H 4200 1302 29  0000 C CNN
+F 3 "~" H 4300 1200 60  0000 C CNN
+	1    4300 1200
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

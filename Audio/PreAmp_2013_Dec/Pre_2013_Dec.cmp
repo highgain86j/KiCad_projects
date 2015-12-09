@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2013/12/17 22:08:46
+
+BeginCmp
+TimeStamp = /52B022DF;
+Reference = Q1;
+ValeurCmp = 2SA1015;
+IdModule  = TO92-ECB;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B02303;
+Reference = Q2;
+ValeurCmp = 2SC1815;
+IdModule  = TO92-ECB;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B04F04;
+Reference = Q3;
+ValeurCmp = 2SC3422;
+IdModule  = TO126-ECB;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B04DFF;
+Reference = Q4;
+ValeurCmp = 2SA1359;
+IdModule  = TO126-ECB;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B00B73;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B00B66;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B024E6;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B023CD;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B024C8;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B023C0;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B0256A;
+Reference = R7;
+ValeurCmp = R;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B02584;
+Reference = R8;
+ValeurCmp = R;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B02263;
+Reference = RV1;
+ValeurCmp = POT;
+IdModule  = 3PIN_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B00AFA;
+Reference = U1;
+ValeurCmp = TL082;
+IdModule  = DIP-8__300;
+EndCmp
+
+EndListe
