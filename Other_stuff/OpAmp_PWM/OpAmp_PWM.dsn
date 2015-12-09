@@ -1,0 +1,267 @@
+(pcb C:\Users\Tahiro\Dropbox\TDU_02\Audio\KiCAD\OpAmp_PWM\OpAmp_PWM.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2013-07-07 BZR 4022)-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  99060 -77470  99060 -78740  34290 -78740  34290 -77470
+            34290 -24130  99060 -24130  99060 -77470)
+    )
+    (via "Via[0-1]_800:600_um" "Via[0-1]_800:0_um")
+    (rule
+      (width 300)
+      (clearance 400.1)
+      (clearance 400.1 (type default_smd))
+      (clearance 100 (type smd_smd))
+    )
+  )
+  (placement
+    (component R3
+      (place R2 62230 -31750 front 180 (PN 2k))
+      (place R3 77470 -38100 front 270 (PN 1k))
+      (place R1 74930 -35560 front 270 (PN 2k))
+    )
+    (component C1
+      (place C1 71120 -40640 front 90 (PN 1u))
+      (place C2 62230 -39370 front 90 (PN 0.1u))
+      (place C3 88900 -39370 front 270 (PN 0.1u))
+      (place C4 72390 -69850 front 0 (PN 0.33u))
+      (place C5 41910 -69850 front 0 (PN 0.33u))
+      (place C6 77470 -69850 front 180 (PN 0.1u))
+      (place C7 46990 -69850 front 180 (PN 0.1u))
+      (place C8 57150 -69850 front 0 (PN 0.33u))
+      (place C10 62230 -69850 front 180 (PN 0.1u))
+    )
+    (component 1pin_small
+      (place P1 82550 -34290 front 90 (PN CONN_1))
+      (place P2 82550 -38100 front 90 (PN CONN_1))
+      (place P4 48260 -46990 front 0 (PN CONN_1))
+      (place P6 87630 -68580 front 270 (PN CONN_1))
+      (place P5 63500 -46990 front 0 (PN CONN_1))
+      (place P3 63500 -52070 front 0 (PN CONN_1))
+      (place P7 48260 -52070 front 0 (PN CONN_1))
+      (place P8 87630 -63500 front 0 (PN CONN_1))
+    )
+    (component R7
+      (place R4 40640 -55880 front 90 (PN 5))
+      (place R5 55880 -55880 front 90 (PN 5))
+    )
+    (component "DIP-8_CIP100"
+      (place U1 62230 -39370 front 270 (PN TL082))
+      (place U2 88900 -39370 front 270 (PN TL082))
+    )
+    (component TO220V_78xx_CIP100
+      (place U4 44450 -73660 front 270 (PN LM7812ACT))
+      (place U3 74930 -73660 front 270 (PN LM7809ACT))
+      (place Q1 92710 -71120 front 0 (PN IRF9540N))
+      (place U5 59690 -73660 front 270 (PN LM7812ACT))
+      (place Q2 92710 -55880 front 0 (PN IRF9540N))
+    )
+    (component "CE2-S_CIP100"
+      (place C12 48260 -62230 front 90 (PN 47u))
+      (place C13 63500 -62230 front 90 (PN 47u))
+      (place C11 78740 -62230 front 90 (PN 47u))
+      (place C9 53340 -33020 front 270 (PN 220u))
+    )
+    (component BARREL_JACK_CIP100
+      (place CON1 40640 -30480 front 0 (PN BARREL_JACK))
+    )
+  )
+  (library
+    (image R3
+      (outline (path signal 203.2  -3810 0  -3302 0))
+      (outline (path signal 203.2  3810 0  3302 0))
+      (outline (path signal 203.2  3302 0  3302 1016))
+      (outline (path signal 203.2  3302 1016  -3302 1016))
+      (outline (path signal 203.2  -3302 1016  -3302 -1016))
+      (outline (path signal 203.2  -3302 -1016  3302 -1016))
+      (outline (path signal 203.2  3302 -1016  3302 0))
+      (outline (path signal 203.2  -3302 508  -2794 1016))
+      (pin Round[A]Pad_1397_um 1 -3810 0)
+      (pin Round[A]Pad_1397_um 2 3810 0)
+    )
+    (image C1
+      (outline (path signal 304.8  -2489.2 1270  2540 1270))
+      (outline (path signal 304.8  2540 1270  2540 -1270))
+      (outline (path signal 304.8  2540 -1270  -2540 -1270))
+      (outline (path signal 304.8  -2540 -1270  -2540 1270))
+      (outline (path signal 304.8  -2540 635  -1905 1270))
+      (pin Round[A]Pad_1397_um 1 -1270 0)
+      (pin Round[A]Pad_1397_um 2 1270 0)
+    )
+    (image 1pin_small
+      (outline (path signal 381  1143 0  1087.06 -353.206  924.706 -671.838  671.838 -924.706
+            353.206 -1087.06  0 -1143  -353.206 -1087.06  -671.838 -924.706
+            -924.706 -671.838  -1087.06 -353.206  -1143 0  -1087.06 353.206
+            -924.706 671.838  -671.838 924.706  -353.206 1087.06  0 1143
+            353.206 1087.06  671.838 924.706  924.706 671.838  1087.06 353.206))
+      (pin Round[A]Pad_1397_um 1 0 0)
+    )
+    (image R7
+      (outline (path signal 304.8  -8890 0  -8890 0))
+      (outline (path signal 304.8  -8890 0  -8890 0))
+      (outline (path signal 304.8  6985 0  8890 0))
+      (outline (path signal 304.8  8890 0  8890 0))
+      (outline (path signal 304.8  6985 -2540  -6985 -2540))
+      (outline (path signal 304.8  -6985 2540  6985 2540))
+      (outline (path signal 304.8  -6985 1270  -5715 2540))
+      (outline (path signal 304.8  6985 2540  6985 -2540))
+      (outline (path signal 304.8  -6985 2540  -6985 -2540))
+      (outline (path signal 304.8  -8890 0  -6985 0))
+      (pin Round[A]Pad_1778_um 1 -8890 0)
+      (pin Round[A]Pad_1778_um 2 8890 0)
+    )
+    (image "DIP-8_CIP100"
+      (outline (path signal 254  -5080 1270  -3810 1270))
+      (outline (path signal 254  -3810 1270  -3810 -1270))
+      (outline (path signal 254  -3810 -1270  -5080 -1270))
+      (outline (path signal 254  -5080 2540  5080 2540))
+      (outline (path signal 254  5080 2540  5080 -2540))
+      (outline (path signal 254  5080 -2540  -5080 -2540))
+      (outline (path signal 254  -5080 -2540  -5080 2540))
+      (pin Round[A]Pad_1397_um 1 -3810 -3810)
+      (pin Round[A]Pad_1397_um 2 -1270 -3810)
+      (pin Round[A]Pad_1397_um 3 1270 -3810)
+      (pin Round[A]Pad_1397_um 4 3810 -3810)
+      (pin Round[A]Pad_1397_um 5 3810 3810)
+      (pin Round[A]Pad_1397_um 6 1270 3810)
+      (pin Round[A]Pad_1397_um 7 -1270 3810)
+      (pin Round[A]Pad_1397_um 8 -3810 3810)
+    )
+    (image TO220V_78xx_CIP100
+      (outline (path signal 381  1905 5080  2540 5080))
+      (outline (path signal 381  2540 5080  2540 -5080))
+      (outline (path signal 381  2540 -5080  1905 -5080))
+      (outline (path signal 381  -1905 5080  1905 5080))
+      (outline (path signal 381  1905 5080  1905 -5080))
+      (outline (path signal 381  1905 -5080  -1905 -5080))
+      (outline (path signal 381  -1905 -5080  -1905 5080))
+      (pin Round[A]Pad_1778_um 2 0 0)
+      (pin Round[A]Pad_1778_um 3 0 2540)
+      (pin Round[A]Pad_1778_um 1 0 -2540)
+    )
+    (image "CE2-S_CIP100"
+      (outline (path signal 150  0 3810  0 -3810))
+      (outline (path signal 150  3810 0  3623.53 -1177.35  3082.35 -2239.46  2239.46 -3082.35
+            1177.35 -3623.53  0 -3810  -1177.35 -3623.53  -2239.46 -3082.35
+            -3082.35 -2239.46  -3623.53 -1177.35  -3810 0  -3623.53 1177.35
+            -3082.35 2239.46  -2239.46 3082.35  -1177.35 3623.53  0 3810
+            1177.35 3623.53  2239.46 3082.35  3082.35 2239.46  3623.53 1177.35))
+      (pin Round[A]Pad_1397_um 1 -2540 0)
+      (pin Round[A]Pad_1397_um 2 2540 0)
+    )
+    (image BARREL_JACK_CIP100
+      (outline (path signal 381  -4000.5 4500.88  -4000.5 -4500.88))
+      (outline (path signal 381  -7500.62 4500.88  -7500.62 -4500.88))
+      (outline (path signal 381  -7500.62 -4500.88  7000.24 -4500.88))
+      (outline (path signal 381  7000.24 -4500.88  7000.24 4500.88))
+      (outline (path signal 381  7000.24 4500.88  -7500.62 4500.88))
+      (pin Round[A]Pad_3500.12_um 1 6200.14 0)
+      (pin Round[A]Pad_3500.12_um 2 200.66 0)
+      (pin Round[A]Pad_3500.12_um 3 3200.4 -4699)
+    )
+    (padstack Round[A]Pad_1397_um
+      (shape (circle F.Cu 1397))
+      (shape (circle B.Cu 1397))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1778_um
+      (shape (circle F.Cu 1778))
+      (shape (circle B.Cu 1778))
+      (attach off)
+    )
+    (padstack Round[A]Pad_3500.12_um
+      (shape (circle F.Cu 3500.12))
+      (shape (circle B.Cu 3500.12))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:600_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:0_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins C2-1 C3-2 P5-1 P3-1 C4-2 C5-2 C6-2 C7-2 C8-2 C10-2 U1-2 U1-4 U1-5 U2-4
+        U4-2 U3-2 Q1-3 U5-2 Q2-3 C12-2 C13-2 C11-2 C9-2 CON1-2 CON1-3)
+    )
+    (net LEDano
+      (pins P4-1 R4-2 R5-2 P7-1)
+    )
+    (net LEDcat1
+      (pins P6-1 Q1-1)
+    )
+    (net LEDcat2
+      (pins P8-1 Q2-1)
+    )
+    (net "N-0000011"
+      (pins U2-1 U2-5)
+    )
+    (net "N-0000012"
+      (pins R1-2 C1-2 U1-7 U2-3)
+    )
+    (net "N-0000013"
+      (pins R2-2 R3-1 U1-1)
+    )
+    (net "N-0000014"
+      (pins R3-2 C1-1 U1-6)
+    )
+    (net "N-0000015"
+      (pins R2-1 R1-1 U1-3)
+    )
+    (net "N-000004"
+      (pins R5-1 C10-1 U5-3 C13-1)
+    )
+    (net "N-000006"
+      (pins R4-1 C7-1 U4-3 C12-1)
+    )
+    (net "N-000008"
+      (pins U2-6 U2-7 Q1-2 Q2-2)
+    )
+    (net VR1
+      (pins P1-1 C2-2 C3-1 C6-1 U1-8 U2-8 U3-3 C11-1)
+    )
+    (net VR2
+      (pins P2-1 U2-2)
+    )
+    (net Vadp
+      (pins C4-1 C5-1 C8-1 U4-1 U3-1 U5-1 C9-1 CON1-1)
+    )
+    (class kicad_default "" GND LEDano LEDcat1 LEDcat2 "N-0000011" "N-0000012"
+      "N-0000013" "N-0000014" "N-0000015" "N-000004" "N-000006" "N-000008"
+      VR1 VR2 Vadp
+      (circuit
+        (use_via Via[0-1]_800:600_um)
+      )
+      (rule
+        (width 300)
+        (clearance 400.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
