@@ -1,0 +1,789 @@
+EESchema Schematic File Version 2
+LIBS:Power-rescue
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:cmos4000
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:Lattice
+LIBS:linear
+LIBS:logo
+LIBS:maxim
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:Xicor
+LIBS:xilinx
+LIBS:Zilog
+LIBS:lme49810
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND-RESCUE-Power #PWR01
+U 1 1 5656626C
+P 3100 6500
+F 0 "#PWR01" H 3100 6250 50  0001 C CNN
+F 1 "GND" H 3100 6350 50  0000 C CNN
+F 2 "" H 3100 6500 60  0000 C CNN
+F 3 "" H 3100 6500 60  0000 C CNN
+	1    3100 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP-RESCUE-Power C1
+U 1 1 565665C7
+P 3550 2850
+F 0 "C1" H 3575 2950 50  0000 L CNN
+F 1 "820uF,100V" H 3575 2750 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D10_L20_P5-7.5" H 3588 2700 30  0001 C CNN
+F 3 "" H 3550 2850 60  0000 C CNN
+	1    3550 2850
+	-1   0    0    -1  
+$EndComp
+Text GLabel 3500 6800 2    60   Output ~ 0
+63-75V(-)
+Text GLabel 3500 6000 2    60   Output ~ 0
+63-75V(+)
+Text GLabel 3100 4500 0    60   Input ~ 0
+63-75V(-)
+Text GLabel 3100 1700 0    60   Input ~ 0
+63-75V(+)
+Text GLabel 3100 3100 0    60   Input ~ 0
+COM
+Text GLabel 2950 6400 0    60   Output ~ 0
+COM
+$Comp
+L ZENER-RESCUE-Power D4
+U 1 1 565685E0
+P 4900 3350
+F 0 "D4" H 4900 3450 50  0000 C CNN
+F 1 "ZENER" H 4900 3250 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 4900 3350 60  0001 C CNN
+F 3 "" H 4900 3350 60  0000 C CNN
+	1    4900 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L ZENER-RESCUE-Power D3
+U 1 1 565685EC
+P 4900 2850
+F 0 "D3" H 4900 2950 50  0000 C CNN
+F 1 "ZENER" H 4900 2750 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 4900 2850 60  0001 C CNN
+F 3 "" H 4900 2850 60  0000 C CNN
+	1    4900 2850
+	0    1    1    0   
+$EndComp
+Text GLabel 7550 1700 2    60   Output ~ 0
+VCC
+Text GLabel 7550 4500 2    60   Output ~ 0
+VEE
+$Comp
+L R-RESCUE-Power R9
+U 1 1 5656A0E3
+P 7450 2450
+F 0 "R9" V 7530 2450 50  0000 C CNN
+F 1 "8.2k,0.5W+" V 7450 2450 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 7380 2450 30  0001 C CNN
+F 3 "" H 7450 2450 30  0000 C CNN
+	1    7450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-Power C11
+U 1 1 5656AA2F
+P 6500 2850
+F 0 "C11" H 6525 2950 50  0000 L CNN
+F 1 "0.1uF,60V+" H 6525 2750 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D12_P7.75" H 6538 2700 30  0001 C CNN
+F 3 "" H 6500 2850 60  0000 C CNN
+	1    6500 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CP-RESCUE-Power C13
+U 1 1 5656ABB2
+P 6850 2850
+F 0 "C13" H 6875 2950 50  0000 L CNN
+F 1 "470uF,200V" H 6875 2750 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D10_L20_P5-7.5" H 6888 2700 30  0001 C CNN
+F 3 "" H 6850 2850 60  0000 C CNN
+	1    6850 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-Power C7
+U 1 1 5656AE94
+P 5300 2850
+F 0 "C7" H 5325 2950 50  0000 L CNN
+F 1 "0.1uF,60V+" H 5325 2750 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D12_P7.75" H 5338 2700 30  0001 C CNN
+F 3 "" H 5300 2850 60  0000 C CNN
+	1    5300 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-Power R6
+U 1 1 5656B7DB
+P 6000 2850
+F 0 "R6" V 6080 2850 50  0000 C CNN
+F 1 "27k" V 6000 2850 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 5930 2850 30  0001 C CNN
+F 3 "" H 6000 2850 30  0000 C CNN
+	1    6000 2850
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 3100
+Connection ~ 4900 3100
+Wire Wire Line
+	4900 2550 4900 2650
+Connection ~ 6000 3100
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 565701F7
+P 3450 5900
+F 0 "#FLG02" H 3450 5995 50  0001 C CNN
+F 1 "PWR_FLAG" H 3450 6080 50  0000 C CNN
+F 2 "" H 3450 5900 60  0000 C CNN
+F 3 "" H 3450 5900 60  0000 C CNN
+	1    3450 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 6350 3100 6500
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 56574BEF
+P 3100 6350
+F 0 "#FLG03" H 3100 6445 50  0001 C CNN
+F 1 "PWR_FLAG" H 3100 6530 50  0000 C CNN
+F 2 "" H 3100 6350 60  0000 C CNN
+F 3 "" H 3100 6350 60  0000 C CNN
+	1    3100 6350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 6000 3500 6000
+$Comp
+L PWR_FLAG #FLG04
+U 1 1 56574FEA
+P 3450 6700
+F 0 "#FLG04" H 3450 6795 50  0001 C CNN
+F 1 "PWR_FLAG" H 3450 6880 50  0000 C CNN
+F 2 "" H 3450 6700 60  0000 C CNN
+F 3 "" H 3450 6700 60  0000 C CNN
+	1    3450 6700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 5900 3450 6000
+Connection ~ 3450 6000
+Wire Wire Line
+	3450 6700 3450 6800
+Connection ~ 3450 6800
+$Comp
+L R-RESCUE-Power R3
+U 1 1 565EE98A
+P 5300 1950
+F 0 "R3" V 5380 1950 50  0000 C CNN
+F 1 "4.3k" V 5300 1950 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 5230 1950 30  0001 C CNN
+F 3 "" H 5300 1950 30  0000 C CNN
+	1    5300 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D2
+U 1 1 5656CECE
+P 4850 4800
+F 0 "D2" H 4850 4900 50  0000 C CNN
+F 1 "D" H 4850 4700 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 4850 4800 60  0001 C CNN
+F 3 "" H 4850 4800 60  0000 C CNN
+	1    4850 4800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L DIODE D1
+U 1 1 5656CE36
+P 4850 1400
+F 0 "D1" H 4850 1500 50  0000 C CNN
+F 1 "D" H 4850 1300 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 4850 1400 60  0001 C CNN
+F 3 "" H 4850 1400 60  0000 C CNN
+	1    4850 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-Power C3
+U 1 1 5656A9AF
+P 3850 2850
+F 0 "C3" H 3875 2950 50  0000 L CNN
+F 1 "0.1uF,125V" H 3875 2750 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D12_P7.75" H 3888 2700 30  0001 C CNN
+F 3 "" H 3850 2850 60  0000 C CNN
+	1    3850 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PNP(TO-220-BCE) Q2
+U 1 1 5662ACFB
+P 4900 4400
+F 0 "Q2" H 5100 4475 50  0000 L CNN
+F 1 "PNP(TO-220-BCE)" H 5100 4400 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Neutral123_Vertical_LargePads" H 5100 4325 50  0001 L CIN
+F 3 "" H 4900 4400 50  0000 L CNN
+	1    4900 4400
+	0    -1   1    0   
+$EndComp
+$Comp
+L NPN(TO-220-BCE) Q1
+U 1 1 5662AD5E
+P 4900 1800
+F 0 "Q1" H 5100 1875 50  0000 L CNN
+F 1 "NPN(TO-220-BCE)" H 5100 1800 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Neutral123_Vertical_LargePads" H 5100 1725 50  0001 L CIN
+F 3 "" H 4900 1800 50  0000 L CNN
+	1    4900 1800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 1700 4700 1700
+Wire Wire Line
+	5100 1700 7550 1700
+Wire Wire Line
+	7450 1700 7450 2300
+Wire Wire Line
+	3100 3100 7450 3100
+Connection ~ 7450 3100
+Wire Wire Line
+	3550 1700 3550 2700
+Connection ~ 3550 3100
+Connection ~ 3850 3100
+Wire Wire Line
+	6500 1700 6500 2700
+Connection ~ 6500 1700
+Connection ~ 6500 3100
+Wire Wire Line
+	6850 1700 6850 2700
+Connection ~ 6850 1700
+Connection ~ 6850 3100
+Wire Wire Line
+	4900 2000 4900 2150
+$Comp
+L POT RV1
+U 1 1 5662FAC9
+P 6000 2400
+F 0 "RV1" H 6000 2300 50  0000 C CNN
+F 1 "10k" H 6000 2400 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp" H 6000 2400 60  0001 C CNN
+F 3 "" H 6000 2400 60  0000 C CNN
+	1    6000 2400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6000 1700
+Wire Wire Line
+	5300 1400 5300 1800
+$Comp
+L R-RESCUE-Power R5
+U 1 1 56630003
+P 6000 1950
+F 0 "R5" V 6080 1950 50  0000 C CNN
+F 1 "20k" V 6000 1950 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 5930 1950 30  0001 C CNN
+F 3 "" H 6000 1950 30  0000 C CNN
+	1    6000 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 1700 6000 1800
+Wire Wire Line
+	6000 2100 6000 2150
+Wire Wire Line
+	6000 2650 6000 2700
+Wire Wire Line
+	5250 2400 5850 2400
+Wire Wire Line
+	5250 2400 5250 2350
+Wire Wire Line
+	5250 2350 5200 2350
+Connection ~ 5300 1700
+Wire Wire Line
+	4900 2600 5500 2600
+Wire Wire Line
+	5300 2100 5300 2700
+Connection ~ 4900 2600
+Connection ~ 5300 2600
+Connection ~ 7450 1700
+$Comp
+L R-RESCUE-Power R1
+U 1 1 5663F666
+P 4350 2050
+F 0 "R1" V 4430 2050 50  0000 C CNN
+F 1 "18k" V 4350 2050 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 4280 2050 30  0001 C CNN
+F 3 "" H 4350 2050 30  0000 C CNN
+	1    4350 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 2050 4200 2050
+Wire Wire Line
+	4500 2050 4900 2050
+Connection ~ 4900 2050
+Connection ~ 4600 3100
+Wire Wire Line
+	4600 2050 4600 2700
+Connection ~ 4600 2050
+Wire Wire Line
+	4100 1700 4100 2050
+Connection ~ 4100 1700
+Wire Wire Line
+	3850 1700 3850 2700
+Wire Wire Line
+	4400 1400 4400 1700
+Connection ~ 4400 1700
+Connection ~ 3850 1700
+Connection ~ 3550 1700
+$Comp
+L NPN(TO-220-BCE) Q3
+U 1 1 566402EA
+P 5000 2350
+F 0 "Q3" H 5200 2425 50  0000 L CNN
+F 1 "NPN(TO-220-BCE)" H 5200 2350 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Neutral123_Vertical_LargePads" H 5200 2275 50  0001 L CIN
+F 3 "" H 5000 2350 50  0000 L CNN
+	1    5000 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L PNP(TO-220-BCE) Q4
+U 1 1 56640DF7
+P 5000 3850
+F 0 "Q4" H 5200 3925 50  0000 L CNN
+F 1 "PNP(TO-220-BCE)" H 5200 3850 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Neutral123_Vertical_LargePads" H 5200 3775 50  0001 L CIN
+F 3 "" H 5000 3850 50  0000 L CNN
+	1    5000 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_2 P1
+U 1 1 56643F7E
+P 2600 6100
+F 0 "P1" H 2600 6250 50  0000 C CNN
+F 1 "CONN_01X02" V 2700 6100 50  0000 C CNN
+F 2 "Connect:PINHEAD1-2" H 2600 6100 50  0001 C CNN
+F 3 "" H 2600 6100 50  0000 C CNN
+	1    2600 6100
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_2 P2
+U 1 1 56644019
+P 2600 6700
+F 0 "P2" H 2600 6850 50  0000 C CNN
+F 1 "CONN_01X02" V 2700 6700 50  0000 C CNN
+F 2 "Connect:PINHEAD1-2" H 2600 6700 50  0001 C CNN
+F 3 "" H 2600 6700 50  0000 C CNN
+	1    2600 6700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 6200 3000 6200
+Wire Wire Line
+	3000 6200 3000 6600
+Wire Wire Line
+	3000 6600 2950 6600
+Wire Wire Line
+	2950 6400 3100 6400
+Connection ~ 3000 6400
+Connection ~ 3100 6400
+Wire Wire Line
+	3500 6800 2950 6800
+$Comp
+L CP-RESCUE-Power C9
+U 1 1 5667C0F5
+P 5500 2850
+F 0 "C9" H 5525 2950 50  0000 L CNN
+F 1 "22uF,60V+" H 5525 2750 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D10_L20_P2.5-5" H 5538 2700 30  0001 C CNN
+F 3 "" H 5500 2850 60  0000 C CNN
+	1    5500 2850
+	1    0    0    -1  
+$EndComp
+Connection ~ 5500 3100
+Wire Wire Line
+	5500 2600 5500 2700
+Wire Wire Line
+	3550 3000 3550 3200
+Wire Wire Line
+	3850 3000 3850 3200
+Wire Wire Line
+	4600 3000 4600 3200
+Wire Wire Line
+	5300 3000 5300 3200
+Wire Wire Line
+	5500 3000 5500 3200
+Wire Wire Line
+	6000 3000 6000 3200
+Wire Wire Line
+	6500 3000 6500 3200
+Wire Wire Line
+	6850 3000 6850 3200
+Wire Wire Line
+	4900 3050 4900 3150
+Wire Wire Line
+	7450 2600 7450 3600
+$Comp
+L C-RESCUE-Power C5
+U 1 1 5667D101
+P 4600 2850
+F 0 "C5" H 4625 2950 50  0000 L CNN
+F 1 "0.47uF,125V" H 4625 2750 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D12_P7.75" H 4638 2700 30  0001 C CNN
+F 3 "" H 4600 2850 60  0000 C CNN
+	1    4600 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CP-RESCUE-Power C2
+U 1 1 5667D727
+P 3550 3350
+F 0 "C2" H 3575 3450 50  0000 L CNN
+F 1 "820uF,100V" H 3575 3250 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D10_L20_P5-7.5" H 3588 3200 30  0001 C CNN
+F 3 "" H 3550 3350 60  0000 C CNN
+	1    3550 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-Power R10
+U 1 1 5667D733
+P 7450 3750
+F 0 "R10" V 7530 3750 50  0000 C CNN
+F 1 "8.2k,0.5W+" V 7450 3750 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 7380 3750 30  0001 C CNN
+F 3 "" H 7450 3750 30  0000 C CNN
+	1    7450 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-Power C12
+U 1 1 5667D739
+P 6500 3350
+F 0 "C12" H 6525 3450 50  0000 L CNN
+F 1 "0.1uF,60V+" H 6525 3250 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D12_P7.75" H 6538 3200 30  0001 C CNN
+F 3 "" H 6500 3350 60  0000 C CNN
+	1    6500 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CP-RESCUE-Power C14
+U 1 1 5667D73F
+P 6850 3350
+F 0 "C14" H 6875 3450 50  0000 L CNN
+F 1 "470uF,200V" H 6875 3250 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D10_L20_P5-7.5" H 6888 3200 30  0001 C CNN
+F 3 "" H 6850 3350 60  0000 C CNN
+	1    6850 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-Power C8
+U 1 1 5667D745
+P 5300 3350
+F 0 "C8" H 5325 3450 50  0000 L CNN
+F 1 "0.1uF,60V+" H 5325 3250 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D12_P7.75" H 5338 3200 30  0001 C CNN
+F 3 "" H 5300 3350 60  0000 C CNN
+	1    5300 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-Power R7
+U 1 1 5667D74B
+P 6000 3350
+F 0 "R7" V 6080 3350 50  0000 C CNN
+F 1 "27k" V 6000 3350 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 5930 3350 30  0001 C CNN
+F 3 "" H 6000 3350 30  0000 C CNN
+	1    6000 3350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3650 4900 3550
+$Comp
+L R-RESCUE-Power R4
+U 1 1 5667D752
+P 5300 4250
+F 0 "R4" V 5380 4250 50  0000 C CNN
+F 1 "4.3k" V 5300 4250 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 5230 4250 30  0001 C CNN
+F 3 "" H 5300 4250 30  0000 C CNN
+	1    5300 4250
+	1    0    0    1   
+$EndComp
+$Comp
+L C-RESCUE-Power C4
+U 1 1 5667D758
+P 3850 3350
+F 0 "C4" H 3875 3450 50  0000 L CNN
+F 1 "0.1uF,125V" H 3875 3250 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D12_P7.75" H 3888 3200 30  0001 C CNN
+F 3 "" H 3850 3350 60  0000 C CNN
+	1    3850 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 4500 7450 3900
+Wire Wire Line
+	3550 4500 3550 3500
+Wire Wire Line
+	6500 4500 6500 3500
+Wire Wire Line
+	6850 4500 6850 3500
+Wire Wire Line
+	4900 4200 4900 4050
+$Comp
+L POT RV2
+U 1 1 5667D769
+P 6000 3800
+F 0 "RV2" H 6000 3700 50  0000 C CNN
+F 1 "10k" H 6000 3800 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp" H 6000 3800 60  0001 C CNN
+F 3 "" H 6000 3800 60  0000 C CNN
+	1    6000 3800
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5300 4800 5300 4400
+$Comp
+L R-RESCUE-Power R8
+U 1 1 5667D770
+P 6000 4250
+F 0 "R8" V 6080 4250 50  0000 C CNN
+F 1 "20k" V 6000 4250 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 5930 4250 30  0001 C CNN
+F 3 "" H 6000 4250 30  0000 C CNN
+	1    6000 4250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4500 6000 4400
+Wire Wire Line
+	6000 4100 6000 4050
+Wire Wire Line
+	6000 3550 6000 3500
+Wire Wire Line
+	5250 3800 5850 3800
+Wire Wire Line
+	5250 3800 5250 3850
+Wire Wire Line
+	5250 3850 5200 3850
+Wire Wire Line
+	4900 3600 5500 3600
+Wire Wire Line
+	5300 4100 5300 3500
+Connection ~ 4900 3600
+Connection ~ 5300 3600
+$Comp
+L R-RESCUE-Power R2
+U 1 1 5667D780
+P 4350 4150
+F 0 "R2" V 4430 4150 50  0000 C CNN
+F 1 "18k" V 4350 4150 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 4280 4150 30  0001 C CNN
+F 3 "" H 4350 4150 30  0000 C CNN
+	1    4350 4150
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4100 4150 4200 4150
+Wire Wire Line
+	4500 4150 4900 4150
+Connection ~ 4900 4150
+Wire Wire Line
+	4600 4150 4600 3500
+Connection ~ 4600 4150
+Wire Wire Line
+	4100 4500 4100 4150
+Wire Wire Line
+	3850 4500 3850 3500
+$Comp
+L CP-RESCUE-Power C10
+U 1 1 5667D793
+P 5500 3350
+F 0 "C10" H 5525 3450 50  0000 L CNN
+F 1 "22uF,60V+" H 5525 3250 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D10_L20_P2.5-5" H 5538 3200 30  0001 C CNN
+F 3 "" H 5500 3350 60  0000 C CNN
+	1    5500 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3600 5500 3500
+$Comp
+L C-RESCUE-Power C6
+U 1 1 5667D7A4
+P 4600 3350
+F 0 "C6" H 4625 3450 50  0000 L CNN
+F 1 "0.47uF,125V" H 4625 3250 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D12_P7.75" H 4638 3200 30  0001 C CNN
+F 3 "" H 4600 3350 60  0000 C CNN
+	1    4600 3350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 4500 4700 4500
+Wire Wire Line
+	5100 4500 7550 4500
+Connection ~ 7450 4500
+Connection ~ 6850 4500
+Connection ~ 6500 4500
+Connection ~ 6000 4500
+Connection ~ 5300 4500
+Connection ~ 4100 4500
+Connection ~ 3850 4500
+Connection ~ 3550 4500
+Wire Wire Line
+	4400 4800 4400 4500
+Connection ~ 4400 4500
+$Comp
+L GND-RESCUE-Power #PWR05
+U 1 1 5667F445
+P 5400 6500
+F 0 "#PWR05" H 5400 6250 50  0001 C CNN
+F 1 "GND" H 5400 6350 50  0000 C CNN
+F 2 "" H 5400 6500 60  0000 C CNN
+F 3 "" H 5400 6500 60  0000 C CNN
+	1    5400 6500
+	-1   0    0    -1  
+$EndComp
+Text GLabel 5550 6400 2    60   Input ~ 0
+COM
+Wire Wire Line
+	5550 6000 5000 6000
+$Comp
+L CONN_2 P3
+U 1 1 5667F466
+P 5900 6100
+F 0 "P3" H 5900 6250 50  0000 C CNN
+F 1 "CONN_01X02" V 6000 6100 50  0000 C CNN
+F 2 "Connect:PINHEAD1-2" H 5900 6100 50  0001 C CNN
+F 3 "" H 5900 6100 50  0000 C CNN
+	1    5900 6100
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_2 P4
+U 1 1 5667F46C
+P 5900 6700
+F 0 "P4" H 5900 6850 50  0000 C CNN
+F 1 "CONN_01X02" V 6000 6700 50  0000 C CNN
+F 2 "Connect:PINHEAD1-2" H 5900 6700 50  0001 C CNN
+F 3 "" H 5900 6700 50  0000 C CNN
+	1    5900 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 6200 5500 6200
+Wire Wire Line
+	5500 6200 5500 6600
+Wire Wire Line
+	5500 6600 5550 6600
+Wire Wire Line
+	5550 6400 5400 6400
+Connection ~ 5500 6400
+Wire Wire Line
+	5000 6800 5550 6800
+Wire Wire Line
+	5400 6400 5400 6500
+Text GLabel 5000 6000 0    60   Input ~ 0
+VCC
+Text GLabel 5000 6800 0    60   Input ~ 0
+VEE
+Wire Wire Line
+	4400 1400 4650 1400
+Wire Wire Line
+	5050 1400 5300 1400
+Wire Wire Line
+	4400 4800 4650 4800
+Wire Wire Line
+	5050 4800 5300 4800
+$EndSCHEMATC
