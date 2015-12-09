@@ -1,0 +1,86 @@
+* EESchema Netlist Version 1.1 (Spice format) creation date: 2013/10/29 21:35:45
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+*Sheet Name:/
+Q5  31 23 12 2SC1815		
+Q7  33 30 27 2SC1815		
+Q8  5 24 35 2SC1815		
+Q6  35 32 24 2SC1815		
+R12  11 23 1k		
+R13  31 32 51		
+R16  33 32 51		
+R15  11 30 1k		
+R17  24 28 30k		
+R14  35 5 180		
+Q12  34 25 23 2SA1015		
+Q17  34 26 30 2SA1015		
+R19  11 34 120		
+Q15  26 20 38 2SA1015		
+Q13  25 39 38 2SA1015		
+Q9  29 11 11 2SC1815		
+Q10  38 29 29 2SC1815		
+Q11  28 38 38 2SC1815		
+Q16  8 18 39 2SC1815		
+Q14  1 39 39 2SC1815		
+R21  20 19 3.0k		
+R22  19 18 510		
+Q19  13 11 20 2SC1815		
+Q20  15 5 18 2SA1015		
+R24  13 14 110		
+C15  30 20 150p		
+C16  20 18 0.1u		
+C14  20 19 220p		
+R9  12 36 470		
+C13  27 36 47p		
+R10  12 22 1.8k		
+R8  27 21 1.8k		
+P7  15 CONN_1		
+P2  0 CONN_1		
+P3  4 CONN_1		
+P4  37 CONN_1		
+P6  14 CONN_1		
+P5  13 CONN_1		
+P1  3 CONN_1		
+R7  27 0 33k		
+R25  14 15 110		
+Q1  11 3 10 2SC1815		
+Q2  5 4 9 2SA1015		
+Q3  0 10 16 2SC1815		
+Q4  0 9 17 2SA1015		
+R3  10 16 2k		
+R4  16 0 60		
+R5  0 17 60		
+R6  17 9 2k		
+R1  3 10 1k		
+R2  4 9 1k		
+R18  1 5 150		
+R23  8 5 150		
+VR1  7 20 500		
+R20  7 19 2.7k		
+P8  6 CONN_1		
+R11  12 6 33k		
+C4  4 0 0.1u		
+C3  3 0 0.1u		
+C2  0 4 47u		
+C1  3 0 47u		
+C7  11 0 10u		
+C8  0 5 10u		
+C5  10 0 10u		
+C6  0 9 10u		
+C12  22 0 6.8u		
+C11  37 21 47u		
+P9  0 CONN_1		
+C10  5 0 0.1u		
+C9  11 0 0.1u		
+P10  0 CONN_1		
+C20  5 0 0.1u		
+C19  11 0 0.1u		
+C17  11 0 0.1u		
+C18  0 5 0.1u		
+P12  20 CONN_1		
+P11  18 CONN_1		
+P13  19 CONN_1		
+
+.end

@@ -1,0 +1,394 @@
+(pcb C:\Users\Tahiro\Dropbox\TDU_02\Audio\KiCAD\Discrete_OpAmp\D_OpAmp.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2013-07-07 BZR 4022)-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type power)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  207010 -54610  205740 -53340  205740 -119380  111760 -119380
+            111760 -53340  205740 -53340)
+    )
+    (via "Via[0-1]_508:254_um" "Via[0-1]_508:0_um" "Via[0-1]_889:635_um")
+    (rule
+      (width 381)
+      (clearance 508.1)
+      (clearance 508.1 (type default_smd))
+      (clearance 127 (type smd_smd))
+    )
+  )
+  (placement
+    (component R3
+      (place R8 152400 -95250 front 270 (PN 1.8k))
+      (place R1 120650 -97790 front 270 (PN 1k))
+      (place R6 127000 -74930 front 0 (PN 2k))
+      (place R5 127000 -77470 front 180 (PN 60))
+      (place R3 127000 -97790 front 180 (PN 2k))
+      (place R4 127000 -95250 front 0 (PN 60))
+      (place R11 137160 -95250 front 270 (PN 33k))
+      (place R20 187960 -88900 front 90 (PN 150))
+      (place R7 154940 -87630 front 90 (PN 33k))
+      (place R10 134620 -87630 front 90 (PN 1.8k))
+      (place R2 120650 -74930 front 90 (PN 1k))
+      (place R9 142240 -88900 front 0 (PN 470))
+      (place R18 168910 -82550 front 90 (PN 150))
+      (place R19 172720 -113030 front 90 (PN 120))
+      (place R14 147320 -63500 front 0 (PN 180))
+      (place R17 148590 -82550 front 270 (PN 30k))
+      (place R15 148590 -109220 front 90 (PN 1k))
+      (place R16 146050 -82550 front 90 (PN 51))
+      (place R13 143510 -82550 front 90 (PN 51))
+      (place R12 143510 -109220 front 90 (PN 1k))
+    )
+    (component C1
+      (place C4 123190 -64770 front 0 (PN 0.1u))
+      (place C3 123190 -107950 front 0 (PN 0.1u))
+      (place C13 149860 -88900 front 180 (PN 47p))
+      (place C14 182880 -100330 front 90 (PN 150p))
+      (place C16 140970 -62230 front 90 (PN 0.1u))
+      (place C15 140970 -110490 front 90 (PN 0.1u))
+    )
+    (component 1pin_small
+      (place P1 118110 -100330 front 270 (PN CONN_1))
+      (place P5 186690 -99060 front 90 (PN CONN_1))
+      (place P8 134620 -99060 front 0 (PN CONN_1))
+      (place P6 180340 -90170 front 90 (PN CONN_1))
+      (place P4 152400 -110490 front 0 (PN CONN_1))
+      (place P3 118110 -72390 front 90 (PN CONN_1))
+      (place P2 118110 -86360 front 270 (PN CONN_1))
+      (place P7 137160 -101600 front 90 (PN CONN_1))
+      (place P9 158750 -82550 front 0 (PN CONN_1))
+    )
+    (component "TO92-ECB2"
+      (place Q2 116840 -63500 front 90 (PN 2SA1015))
+      (place Q4 130810 -68580 front 0 (PN 2SA1015))
+      (place Q6 146050 -73660 front 180 (PN 2SC1815))
+      (place Q14 167640 -90170 front 90 (PN 2SC1815))
+      (place Q16 175260 -90170 front 270 (PN 2SC1815))
+      (place Q7 147320 -95250 front 270 (PN 2SC1815))
+      (place Q15 175260 -99060 front 270 (PN 2SA1015))
+      (place Q13 167640 -99060 front 90 (PN 2SA1015))
+    )
+    (component "TO92-ECB3"
+      (place Q3 130810 -104140 front 0 (PN 2SC1815))
+      (place Q1 116840 -109220 front 270 (PN 2SC1815))
+      (place Q5 142240 -95250 front 90 (PN 2SC1815))
+      (place Q8 146050 -68580 front 0 (PN 2SC1815))
+      (place Q17 175260 -106680 front 270 (PN 2SA1015))
+      (place Q12 167640 -106680 front 90 (PN 2SA1015))
+    )
+    (component "CE2-S"
+      (place C12 129540 -83820 front 180 (PN 6.8u))
+      (place C2 123190 -82550 front 90 (PN 47u))
+      (place C1 123190 -90170 front 90 (PN 47u))
+      (place C7 128270 -110490 front 90 (PN 10u))
+      (place C8 128270 -62230 front 90 (PN 10u))
+      (place C5 123190 -102870 front 0 (PN 10u))
+      (place C6 123190 -69850 front 180 (PN 10u))
+      (place C11 153670 -104140 front 90 (PN 47u))
+    )
+    (component C2
+      (place C17 163830 -114300 front 90 (PN 0.1u))
+      (place C18 163830 -80010 front 270 (PN 0.1u))
+      (place C10 133350 -62230 front 270 (PN 0.1u))
+      (place C9 133350 -110490 front 90 (PN 0.1u))
+    )
+    (component "TO92-ECB6"
+      (place Q10 160020 -102870 front 90 (PN 2SC1815))
+    )
+    (component "TO92-ECB5"
+      (place Q11 160020 -88900 front 90 (PN 2SC1815))
+      (place Q9 160020 -110490 front 90 (PN 2SC1815))
+    )
+  )
+  (library
+    (image R3
+      (outline (path signal 203.2  -3810 0  -3302 0))
+      (outline (path signal 203.2  3810 0  3302 0))
+      (outline (path signal 203.2  3302 0  3302 1016))
+      (outline (path signal 203.2  3302 1016  -3302 1016))
+      (outline (path signal 203.2  -3302 1016  -3302 -1016))
+      (outline (path signal 203.2  -3302 -1016  3302 -1016))
+      (outline (path signal 203.2  3302 -1016  3302 0))
+      (outline (path signal 203.2  -3302 508  -2794 1016))
+      (pin Round[A]Pad_1397_um 1 -3810 0)
+      (pin Round[A]Pad_1397_um 2 3810 0)
+    )
+    (image C1
+      (outline (path signal 304.8  -2489.2 1270  2540 1270))
+      (outline (path signal 304.8  2540 1270  2540 -1270))
+      (outline (path signal 304.8  2540 -1270  -2540 -1270))
+      (outline (path signal 304.8  -2540 -1270  -2540 1270))
+      (outline (path signal 304.8  -2540 635  -1905 1270))
+      (pin Round[A]Pad_1397_um 1 -1270 0)
+      (pin Round[A]Pad_1397_um 2 1270 0)
+    )
+    (image 1pin_small
+      (outline (path signal 381  1143 0  1087.06 -353.206  924.706 -671.838  671.838 -924.706
+            353.206 -1087.06  0 -1143  -353.206 -1087.06  -671.838 -924.706
+            -924.706 -671.838  -1087.06 -353.206  -1143 0  -1087.06 353.206
+            -924.706 671.838  -671.838 924.706  -353.206 1087.06  0 1143
+            353.206 1087.06  671.838 924.706  924.706 671.838  1087.06 353.206))
+      (pin Round[A]Pad_1397_um 1 0 0)
+    )
+    (image "TO92-ECB2"
+      (outline (path signal 150  -2540 -1270  2540 -1270))
+      (outline (path signal 150  2839.81 0  2700.82 -877.548  2297.45 -1669.2  1669.2 -2297.45
+            877.548 -2700.82  0 -2839.81  -877.548 -2700.82  -1669.2 -2297.45
+            -2297.45 -1669.2  -2700.82 -877.548  -2839.81 0  -2700.82 877.548
+            -2297.45 1669.2  -1669.2 2297.45  -877.548 2700.82  0 2839.81
+            877.548 2700.82  1669.2 2297.45  2297.45 1669.2  2700.82 877.548))
+      (pin Rect[A]Pad_1397x1397_um 1 2540 -1270)
+      (pin Round[A]Pad_1397_um 2 0 1270)
+      (pin Round[A]Pad_1397_um 3 -2540 -1270)
+    )
+    (image "TO92-ECB3"
+      (outline (path signal 150  -2540 -1270  2540 -1270))
+      (outline (path signal 150  2839.81 0  2700.82 -877.548  2297.45 -1669.2  1669.2 -2297.45
+            877.548 -2700.82  0 -2839.81  -877.548 -2700.82  -1669.2 -2297.45
+            -2297.45 -1669.2  -2700.82 -877.548  -2839.81 0  -2700.82 877.548
+            -2297.45 1669.2  -1669.2 2297.45  -877.548 2700.82  0 2839.81
+            877.548 2700.82  1669.2 2297.45  2297.45 1669.2  2700.82 877.548))
+      (pin Rect[A]Pad_1397x1397_um 1 2540 1270)
+      (pin Round[A]Pad_1397_um 2 0 -1270)
+      (pin Round[A]Pad_1397_um 3 -2540 1270)
+    )
+    (image "CE2-S"
+      (outline (path signal 150  0 3810  0 -3810))
+      (outline (path signal 150  3810 0  3623.53 -1177.35  3082.35 -2239.46  2239.46 -3082.35
+            1177.35 -3623.53  0 -3810  -1177.35 -3623.53  -2239.46 -3082.35
+            -3082.35 -2239.46  -3623.53 -1177.35  -3810 0  -3623.53 1177.35
+            -3082.35 2239.46  -2239.46 3082.35  -1177.35 3623.53  0 3810
+            1177.35 3623.53  2239.46 3082.35  3082.35 2239.46  3623.53 1177.35))
+      (pin Round[A]Pad_1397_um 1 -2540 0)
+      (pin Rect[A]Pad_1397x1397_um 2 2540 0)
+    )
+    (image C2
+      (outline (path signal 304.8  -3556 1016  3556 1016))
+      (outline (path signal 304.8  3556 1016  3556 -1016))
+      (outline (path signal 304.8  3556 -1016  -3556 -1016))
+      (outline (path signal 304.8  -3556 -1016  -3556 1016))
+      (outline (path signal 304.8  -3556 508  -3048 1016))
+      (pin Round[A]Pad_1397_um 1 -2540 0)
+      (pin Round[A]Pad_1397_um 2 2540 0)
+    )
+    (image "TO92-ECB6"
+      (outline (path signal 150  -2540 -1270  2540 -1270))
+      (outline (path signal 150  2839.81 0  2700.82 -877.548  2297.45 -1669.2  1669.2 -2297.45
+            877.548 -2700.82  0 -2839.81  -877.548 -2700.82  -1669.2 -2297.45
+            -2297.45 -1669.2  -2700.82 -877.548  -2839.81 0  -2700.82 877.548
+            -2297.45 1669.2  -1669.2 2297.45  -877.548 2700.82  0 2839.81
+            877.548 2700.82  1669.2 2297.45  2297.45 1669.2  2700.82 877.548))
+      (pin Rect[A]Pad_1397x1397_um 1 2540 -1270)
+      (pin Round[A]Pad_1397_um 2 0 1270)
+      (pin Round[A]Pad_1397_um 3 -2540 1270)
+    )
+    (image "TO92-ECB5"
+      (outline (path signal 150  -2540 -1270  2540 -1270))
+      (outline (path signal 150  2839.81 0  2700.82 -877.548  2297.45 -1669.2  1669.2 -2297.45
+            877.548 -2700.82  0 -2839.81  -877.548 -2700.82  -1669.2 -2297.45
+            -2297.45 -1669.2  -2700.82 -877.548  -2839.81 0  -2700.82 877.548
+            -2297.45 1669.2  -1669.2 2297.45  -877.548 2700.82  0 2839.81
+            877.548 2700.82  1669.2 2297.45  2297.45 1669.2  2700.82 877.548))
+      (pin Rect[A]Pad_1397x1397_um 1 2540 1270)
+      (pin Round[A]Pad_1397_um 2 0 -1270)
+      (pin Round[A]Pad_1397_um 3 -2540 -1270)
+    )
+    (padstack Round[A]Pad_1397_um
+      (shape (circle F.Cu 1397))
+      (shape (circle B.Cu 1397))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1397x1397_um
+      (shape (rect F.Cu -698.5 -698.5 698.5 698.5))
+      (shape (rect B.Cu -698.5 -698.5 698.5 698.5))
+      (attach off)
+    )
+    (padstack "Via[0-1]_508:254_um"
+      (shape (circle F.Cu 508))
+      (shape (circle B.Cu 508))
+      (attach off)
+    )
+    (padstack "Via[0-1]_508:0_um"
+      (shape (circle F.Cu 508))
+      (shape (circle B.Cu 508))
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:635_um"
+      (shape (circle F.Cu 889))
+      (shape (circle B.Cu 889))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins R5-1 R4-2 R7-2 C4-2 C3-2 C16-1 C15-2 P8-1 P2-1 Q4-1 P9-1 Q3-1 C12-2 C2-1
+        C1-2 C7-2 C8-1 C5-2 C6-1 C17-2 C18-2 C10-2 C9-2)
+    )
+    (net "N-000001"
+      (pins R18-1 Q14-1)
+    )
+    (net "N-0000010"
+      (pins R6-1 R5-2 Q4-3)
+    )
+    (net "N-0000011"
+      (pins R1-2 R3-1 Q3-2 Q1-3 C5-1)
+    )
+    (net "N-0000012"
+      (pins R3-2 R4-1 Q3-3)
+    )
+    (net "N-0000014"
+      (pins R15-2 C14-1 Q7-2 Q17-3)
+    )
+    (net "N-0000015"
+      (pins R8-2 C11-2)
+    )
+    (net "N-0000016"
+      (pins R10-2 C12-1)
+    )
+    (net "N-0000018"
+      (pins R12-2 Q5-2 Q12-3)
+    )
+    (net "N-0000019"
+      (pins Q12-2 Q13-1)
+    )
+    (net "N-0000020"
+      (pins Q15-1 Q17-2)
+    )
+    (net "N-0000021"
+      (pins R17-1 Q6-3 Q8-2)
+    )
+    (net "N-0000023"
+      (pins R19-2 Q17-1 Q12-1)
+    )
+    (net "N-0000024"
+      (pins Q10-2 Q10-3 Q9-1)
+    )
+    (net "N-0000025"
+      (pins R13-1 Q5-1)
+    )
+    (net "N-0000026"
+      (pins R16-2 R13-2 Q6-2)
+    )
+    (net "N-0000027"
+      (pins R16-1 Q7-1)
+    )
+    (net "N-0000028"
+      (pins R14-1 Q6-1 Q8-3)
+    )
+    (net "N-0000029"
+      (pins R17-2 Q11-1)
+    )
+    (net "N-0000030"
+      (pins R9-2 C13-2)
+    )
+    (net "N-0000033"
+      (pins Q15-3 Q13-3 Q10-1 Q11-2 Q11-3)
+    )
+    (net "N-0000034"
+      (pins Q14-2 Q14-3 Q16-3 Q13-2)
+    )
+    (net "N-000004"
+      (pins R6-2 R2-2 Q2-3 Q4-2 C6-2)
+    )
+    (net "N-000009"
+      (pins R20-1 Q16-1)
+    )
+    (net NEG
+      (pins R11-1 R10-1 R9-1 Q5-3)
+    )
+    (net NFB
+      (pins R11-2 P7-1)
+    )
+    (net OUT_BH
+      (pins C14-2 P5-1 Q15-2)
+    )
+    (net OUT_BL
+      (pins P6-1 Q16-2)
+    )
+    (net POS
+      (pins R8-1 R7-1 C13-1 Q7-3)
+    )
+    (net SIG
+      (pins P4-1 C11-1)
+    )
+    (net V+
+      (pins R1-1 C3-1 P1-1 Q1-2 C1-1)
+    )
+    (net "V-"
+      (pins R2-1 C4-1 P3-1 Q2-2 C2-2)
+    )
+    (net Vreg+
+      (pins R19-1 R15-1 R12-1 C15-1 Q1-1 C7-1 C17-1 C9-1 Q9-2 Q9-3)
+    )
+    (net "Vreg-"
+      (pins R20-2 R18-2 R14-2 C16-2 Q2-1 C8-2 C18-1 C10-1 Q8-1)
+    )
+    (class kicad_default "" "N-000001" "N-0000010" "N-0000011" "N-0000012"
+      "N-0000014" "N-0000015" "N-0000016" "N-0000018" "N-0000019" "N-0000020"
+      "N-0000021" "N-0000023" "N-0000024" "N-0000025" "N-0000026" "N-0000027"
+      "N-0000028" "N-0000029" "N-0000030" "N-0000033" "N-0000034" "N-000004"
+      "N-000009" NEG NFB OUT_BH OUT_BL POS SIG V+ "V-"
+      (circuit
+        (use_via Via[0-1]_508:254_um)
+      )
+      (rule
+        (width 381)
+        (clearance 508.1)
+      )
+    )
+    (class PWR GND Vreg+ "Vreg-"
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 762)
+        (clearance 508.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 762  123190 -87630  123190 -85090)(net GND)(type protect))
+    (wire (path F.Cu 762  128270 -72390  128270 -64770)(net GND)(type protect))
+    (wire (path F.Cu 381  168910 -87630  168910 -85090)(net "N-000001")(type protect))
+    (wire (path F.Cu 381  123190 -77470  123190 -74930)(net "N-0000010")(type protect))
+    (wire (path F.Cu 381  120650 -102870  120650 -101600)(net "N-0000011")(type protect))
+    (wire (path F.Cu 381  123190 -95250  123190 -97790)(net "N-0000012")(type protect))
+    (wire (path F.Cu 381  153543 -100203  152400 -99060)(net "N-0000015")(type protect))
+    (wire (path F.Cu 381  153670 -100203  153543 -100203)(net "N-0000015")(type protect))
+    (wire (path F.Cu 381  153670 -101600  153670 -100203)(net "N-0000015")(type protect))
+    (wire (path F.Cu 381  146050 -69850  148590 -72390)(net "N-0000021")(type protect))
+    (wire (path F.Cu 381  143510 -77470  143510 -78740)(net "N-0000026")(type protect))
+    (wire (path F.Cu 381  146050 -74930  143510 -77470)(net "N-0000026")(type protect))
+    (wire (path F.Cu 381  143510 -67310  143510 -63500)(net "N-0000028")(type protect))
+    (wire (path F.Cu 381  161290 -88900  161290 -91440  161290 -93980)(net "N-0000033")(type protect))
+    (wire (path F.Cu 381  166370 -95497.8  167967 -93901)(net "N-0000034")(type protect))
+    (wire (path F.Cu 381  166370 -99060  166370 -95497.8)(net "N-0000034")(type protect))
+    (wire (path F.Cu 381  166370 -92304.2  166370 -90170)(net "N-0000034")(type protect))
+    (wire (path F.Cu 381  167967 -93901  166370 -92304.2)(net "N-0000034")(type protect))
+    (wire (path F.Cu 381  120650 -69850  120650 -71120)(net "N-000004")(type protect))
+    (wire (path F.Cu 381  137160 -101600  137160 -99060)(net NFB)(type protect))
+    (wire (path F.Cu 381  152400 -107950  152400 -110490)(net SIG)(type protect))
+    (wire (path F.Cu 381  153670 -106680  152400 -107950)(net SIG)(type protect))
+    (wire (path F.Cu 762  127000 -111760  128270 -113030)(net Vreg+)(type protect))
+    (wire (path F.Cu 762  118110 -111760  127000 -111760)(net Vreg+)(type protect))
+    (wire (path F.Cu 762  154940 -63500  168910 -77470)(net "Vreg-")(type protect))
+    (wire (path F.Cu 762  151130 -63500  154940 -63500)(net "Vreg-")(type protect))
+    (via "Via[0-1]_508:254_um"  167967 -93901 (net "N-0000034")(type protect))
+  )
+)
