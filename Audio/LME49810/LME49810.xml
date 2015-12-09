@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>M:/Hashizume/KiCad/Gakuhatsu2015_BTL/LME49810.sch</source>
+    <date>2015/11/14 16:41:38</date>
+    <tool>Eeschema (after 2015-mar-04 BZR unknown)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LME49810.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>LME49810</value>
+      <footprint>LME49810:LME49810</footprint>
+      <libsource lib="lme49810" part="LME49810"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5645485C</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1u</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564548D5</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1u</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56454F9D</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>470u</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D8_L13_P3.8</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564551B6</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>470u</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D8_L13_P3.8</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564552E1</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1.2k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56455EAB</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>360</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56455FE8</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>2.2k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56456CC8</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LEDs:LED-3MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56456DBB</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>470</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56456E31</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>200</value>
+      <footprint>Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5645623B</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10p</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564578EA</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>33k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564583DC</tstamp>
+    </comp>
+    <comp

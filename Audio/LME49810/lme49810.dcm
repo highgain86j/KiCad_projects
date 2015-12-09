@@ -1,0 +1,119 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GND1
+K POWER, PWR
+$ENDCMP
+#
+$CMP GND2
+K POWER, PWR
+$ENDCMP
+#
+$CMP LME49810
+D LME49810
+$ENDCMP
+#
+$CMP NPN(TO-126-ECB)
+D Generic NPN Transistor, TO-126-ECB
+K Generic NPN Transistor, TO-126-ECB
+$ENDCMP
+#
+$CMP NPN(TO-220-BCE)
+D Generic NPN Transistor, TO-220-BCE
+K Generic NPN Transistor, TO-220-BCE
+$ENDCMP
+#
+$CMP NPN(TO-3P-BCE)
+D Generic NPN Transistor, TO-3P-BCE
+K Generic NPN Transistor, TO-3P-BCE
+$ENDCMP
+#
+$CMP NPN(TO-92-ECB)
+D Generic NPN Transistor, TO-92-ECB
+K Generic NPN Transistor, TO-92-ECB
+$ENDCMP
+#
+$CMP PNP(TO-126-ECB)
+D Generic PNP Transistor, TO-126-ECB
+K Generic PNP Transistor, TO-126-ECB
+$ENDCMP
+#
+$CMP PNP(TO-220-BCE)
+D Generic PNP Transistor, TO-220-BCE
+K Generic PNP Transistor, TO-220-BCE
+$ENDCMP
+#
+$CMP PNP(TO-3P-BCE)
+D Generic PNP Transistor, TO-3P-BCE
+K Generic PNP Transistor, TO-3P-BCE
+$ENDCMP
+#
+$CMP PNP(TO-92-ECB)
+D Generic NPN Transistor, TO-92-ECB
+K Generic NPN Transistor, TO-92-ECB
+$ENDCMP
+#
+$CMP VCC1
+K POWER, PWR
+$ENDCMP
+#
+$CMP VCC2
+K POWER, PWR
+$ENDCMP
+#
+$CMP VCC3
+K POWER, PWR
+$ENDCMP
+#
+$CMP VCC4
+K POWER, PWR
+$ENDCMP
+#
+$CMP VCC5
+K POWER, PWR
+$ENDCMP
+#
+$CMP VCC6
+K POWER, PWR
+$ENDCMP
+#
+$CMP VCC7
+K POWER, PWR
+$ENDCMP
+#
+$CMP VCC8
+K POWER, PWR
+$ENDCMP
+#
+$CMP VEE1
+K POWER, PWR
+$ENDCMP
+#
+$CMP VEE2
+K POWER, PWR
+$ENDCMP
+#
+$CMP VEE3
+K POWER, PWR
+$ENDCMP
+#
+$CMP VEE4
+K POWER, PWR
+$ENDCMP
+#
+$CMP VEE5
+K POWER, PWR
+$ENDCMP
+#
+$CMP VEE6
+K POWER, PWR
+$ENDCMP
+#
+$CMP VEE7
+K POWER, PWR
+$ENDCMP
+#
+$CMP VEE8
+K POWER, PWR
+$ENDCMP
+#
+#End Doc Library
