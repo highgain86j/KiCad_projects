@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SM5840AP
+D SAA7350 20-bit input bitstream conversion DAC for digital audio systems
+K bitstream DAC
+$ENDCMP
+#
+#End Doc Library
