@@ -1,0 +1,337 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SSM2142-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X03 P1
+U 1 1 56651604
+P 950 1050
+F 0 "P1" H 950 1250 50  0000 C CNN
+F 1 "CONN_01X03" V 1050 1050 50  0000 C CNN
+F 2 "Connect:PINHEAD1-3" H 950 1050 50  0001 C CNN
+F 3 "" H 950 1050 50  0000 C CNN
+	1    950  1050
+	-1   0    0    1   
+$EndComp
+Text GLabel 1300 1150 2    60   Output ~ 0
+GND
+Wire Wire Line
+	1150 1050 1550 1050
+Wire Wire Line
+	1150 950  1750 950 
+Wire Wire Line
+	1300 1150 1150 1150
+Text GLabel 3900 3600 2    60   Output ~ 0
+Vin_L
+Wire Wire Line
+	3900 3600 3750 3600
+$Comp
+L PWR_FLAG #FLG1
+U 1 1 56651AD0
+P 1200 900
+F 0 "#FLG1" H 1200 995 50  0001 C CNN
+F 1 "PWR_FLAG" H 1200 1080 50  0000 C CNN
+F 2 "" H 1200 900 50  0000 C CNN
+F 3 "" H 1200 900 50  0000 C CNN
+	1    1200 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG2
+U 1 1 56651B11
+P 1400 900
+F 0 "#FLG2" H 1400 995 50  0001 C CNN
+F 1 "PWR_FLAG" H 1400 1080 50  0000 C CNN
+F 2 "" H 1400 900 50  0000 C CNN
+F 3 "" H 1400 900 50  0000 C CNN
+	1    1400 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG3
+U 1 1 56651B2B
+P 1600 900
+F 0 "#FLG3" H 1600 995 50  0001 C CNN
+F 1 "PWR_FLAG" H 1600 1080 50  0000 C CNN
+F 2 "" H 1600 900 50  0000 C CNN
+F 3 "" H 1600 900 50  0000 C CNN
+	1    1600 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 900  1200 1150
+Connection ~ 1200 1150
+Wire Wire Line
+	1400 900  1400 1050
+Connection ~ 1400 1050
+Wire Wire Line
+	1600 900  1600 950 
+Connection ~ 1600 950 
+$Comp
+L CONN_01X02 P3
+U 1 1 566520FE
+P 6250 4250
+F 0 "P3" H 6250 4400 50  0000 C CNN
+F 1 "CONN_01X02" V 6350 4250 50  0000 C CNN
+F 2 "Connect:PINHEAD1-2" H 6250 4250 50  0001 C CNN
+F 3 "" H 6250 4250 50  0000 C CNN
+	1    6250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P4
+U 1 1 56652104
+P 6250 4650
+F 0 "P4" H 6250 4800 50  0000 C CNN
+F 1 "CONN_01X02" V 6350 4650 50  0000 C CNN
+F 2 "Connect:PINHEAD1-2" H 6250 4650 50  0001 C CNN
+F 3 "" H 6250 4650 50  0000 C CNN
+	1    6250 4650
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5850 4150 5950 4150
+Wire Wire Line
+	5950 4150 5950 4200
+Wire Wire Line
+	5950 4200 6050 4200
+Wire Wire Line
+	6050 4300 5950 4300
+Wire Wire Line
+	5950 4300 5950 4350
+Wire Wire Line
+	5950 4350 5850 4350
+Wire Wire Line
+	5850 4550 5950 4550
+Wire Wire Line
+	5950 4550 5950 4600
+Wire Wire Line
+	5950 4600 6050 4600
+Wire Wire Line
+	6050 4700 5950 4700
+Wire Wire Line
+	5950 4700 5950 4750
+Wire Wire Line
+	5950 4750 5850 4750
+Text GLabel 5350 3800 1    60   Input ~ 0
++V_L
+Text GLabel 5350 5100 3    60   Input ~ 0
+-V_L
+Wire Wire Line
+	5350 3800 5350 3900
+Wire Wire Line
+	5350 5000 5350 5100
+Text GLabel 4750 4550 0    60   Input ~ 0
+GND
+Wire Wire Line
+	4750 4550 4850 4550
+Text GLabel 4750 4350 0    60   Input ~ 0
+Vin_L
+Wire Wire Line
+	4750 4350 4850 4350
+Wire Wire Line
+	3400 4000 3900 4000
+Wire Wire Line
+	3400 5000 3900 5000
+Text GLabel 3400 4500 0    60   Input ~ 0
+GND
+Wire Wire Line
+	3400 4500 3800 4500
+Wire Wire Line
+	3500 4400 3500 4600
+Wire Wire Line
+	3800 4400 3800 4600
+Wire Wire Line
+	3500 4900 3500 5000
+Wire Wire Line
+	3800 4900 3800 5050
+$Comp
+L C C2
+U 1 1 566523D7
+P 3800 4250
+F 0 "C2" H 3825 4350 50  0000 L CNN
+F 1 "0.1u" H 3825 4150 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D6_P5" H 3838 4100 50  0001 C CNN
+F 3 "" H 3800 4250 50  0000 C CNN
+	1    3800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C1
+U 1 1 566523DD
+P 3500 4250
+F 0 "C1" H 3525 4350 50  0000 L CNN
+F 1 "470u" H 3525 4150 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L25_P7.5" H 3538 4100 50  0001 C CNN
+F 3 "" H 3500 4250 50  0000 C CNN
+	1    3500 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 4100 3500 4000
+Wire Wire Line
+	3800 3950 3800 4100
+Connection ~ 3800 4500
+Connection ~ 3500 4500
+Connection ~ 3500 5000
+Connection ~ 3500 4000
+Text GLabel 3900 4000 2    60   Output ~ 0
++V_L
+Text GLabel 3900 5000 2    60   Output ~ 0
+-V_L
+$Comp
+L R R1
+U 1 1 56652B76
+P 3250 4000
+F 0 "R1" V 3330 4000 50  0000 C CNN
+F 1 "10" V 3250 4000 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3180 4000 50  0001 C CNN
+F 3 "" H 3250 4000 50  0000 C CNN
+	1    3250 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 56652C3F
+P 3250 5000
+F 0 "R2" V 3330 5000 50  0000 C CNN
+F 1 "10" V 3250 5000 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3180 5000 50  0001 C CNN
+F 3 "" H 3250 5000 50  0000 C CNN
+	1    3250 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L C C4
+U 1 1 56652F67
+P 3800 4750
+F 0 "C4" H 3825 4850 50  0000 L CNN
+F 1 "0.1u" H 3825 4650 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D6_P5" H 3838 4600 50  0001 C CNN
+F 3 "" H 3800 4750 50  0000 C CNN
+	1    3800 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C3
+U 1 1 56652F6D
+P 3500 4750
+F 0 "C3" H 3525 4850 50  0000 L CNN
+F 1 "470u" H 3525 4650 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D16_L25_P7.5" H 3538 4600 50  0001 C CNN
+F 3 "" H 3500 4750 50  0000 C CNN
+	1    3500 4750
+	1    0    0    -1  
+$EndComp
+Connection ~ 3800 5000
+Connection ~ 3800 4000
+Text GLabel 2900 4000 0    60   Input ~ 0
++Vreg
+Text GLabel 2900 5000 0    60   Input ~ 0
+-Vreg
+Text GLabel 1550 1050 2    60   Output ~ 0
++Vreg
+Text GLabel 1750 950  2    60   Output ~ 0
+-Vreg
+Wire Wire Line
+	3100 4000 2900 4000
+Wire Wire Line
+	3100 5000 2900 5000
+$Comp
+L PWR_FLAG #FLG4
+U 1 1 56657281
+P 3800 3950
+F 0 "#FLG4" H 3800 4045 50  0001 C CNN
+F 1 "PWR_FLAG" H 3800 4130 50  0000 C CNN
+F 2 "" H 3800 3950 50  0000 C CNN
+F 3 "" H 3800 3950 50  0000 C CNN
+	1    3800 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG5
+U 1 1 566573CC
+P 3800 5050
+F 0 "#FLG5" H 3800 5145 50  0001 C CNN
+F 1 "PWR_FLAG" H 3800 5230 50  0000 C CNN
+F 2 "" H 3800 5050 50  0000 C CNN
+F 3 "" H 3800 5050 50  0000 C CNN
+	1    3800 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L SSM2142P U1
+U 1 1 56657851
+P 5350 4450
+F 0 "U1" H 5050 4900 50  0000 C CNN
+F 1 "SSM2142P" H 5600 4900 50  0000 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 5350 4450 50  0000 C CIN
+F 3 "" H 5350 4450 50  0000 C CNN
+	1    5350 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 3900 3400 2    60   Input ~ 0
+GND
+$Comp
+L CONN_01X02 P2
+U 1 1 566598AF
+P 3400 3500
+F 0 "P2" H 3400 3650 50  0000 C CNN
+F 1 "CONN_01X02" V 3500 3500 50  0000 C CNN
+F 2 "Connect:PINHEAD1-2" H 3400 3500 50  0001 C CNN
+F 3 "" H 3400 3500 50  0000 C CNN
+	1    3400 3500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3400 3750 3400
+Wire Wire Line
+	3750 3400 3750 3450
+Wire Wire Line
+	3750 3450 3600 3450
+Wire Wire Line
+	3600 3550 3750 3550
+Wire Wire Line
+	3750 3550 3750 3600
+$EndSCHEMATC
