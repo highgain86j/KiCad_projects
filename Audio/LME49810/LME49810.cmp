@@ -1,0 +1,299 @@
+Cmp-Mod V01 Created by PcbNew   date = 2015/12/13 22:54:04
+
+BeginCmp
+TimeStamp = 566D5CE5
+Path = /564ACC0E
+Reference = Q2;
+ValeurCmp = PNP(TO-3P-BCE);
+IdModule  = TO_SOT_Packages_THT:TO-247_Vertical_Neutral123_MountedFromLS;
+EndCmp
+
+BeginCmp
+TimeStamp = 566D5CDE
+Path = /564ACB78
+Reference = Q1;
+ValeurCmp = NPN(TO-3P-BCE);
+IdModule  = TO_SOT_Packages_THT:TO-247_Vertical_Neutral123_MountedFromLS;
+EndCmp
+
+BeginCmp
+TimeStamp = 566D5BBD
+Path = /564AD0FB
+Reference = Q3;
+ValeurCmp = NPN(TO-220-BCE);
+IdModule  = TO_SOT_Packages_THT:TO-220_Neutral123_Vertical_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = 566D5BB0
+Path = /566D5609
+Reference = P2;
+ValeurCmp = CONN_01X01;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = 566D5BAB
+Path = /566D53AE
+Reference = P1;
+ValeurCmp = CONN_01X01;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = 566D5BA2
+Path = /56456DBB
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 566D4220
+Path = /566D3FB0
+Reference = C11;
+ValeurCmp = 470u;
+IdModule  = Capacitors_ThroughHole:C_Radial_D8_L11.5_P3.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 566BD28A
+Path = /5645485C
+Reference = U1;
+ValeurCmp = LME49810;
+IdModule  = LME49810:LME49810;
+EndCmp
+
+BeginCmp
+TimeStamp = 564DAE9F
+Path = /564B660F
+Reference = C1;
+ValeurCmp = 820u,100V;
+IdModule  = Capacitors_ThroughHole:C_Radial_D16_L31.5_P7.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 564DAEA4
+Path = /564BB562
+Reference = C5;
+ValeurCmp = 820u,100V;
+IdModule  = Capacitors_ThroughHole:C_Radial_D16_L31.5_P7.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B2174
+Path = /56460559
+Reference = R12;
+ValeurCmp = 7.5k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 566AB180
+Path = /564880FC
+Reference = C9;
+ValeurCmp = 820u,100V;
+IdModule  = Capacitors_ThroughHole:C_Radial_D16_L31.5_P7.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 564D493A
+Path = /56487D1D
+Reference = C3;
+ValeurCmp = 820u,100V;
+IdModule  = Capacitors_ThroughHole:C_Radial_D16_L31.5_P7.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 564C09A1
+Path = /564B2EA0
+Reference = R3;
+ValeurCmp = 2.2k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 564BEF25
+Path = /5648602E
+Reference = C8;
+ValeurCmp = 220u;
+IdModule  = Capacitors_ThroughHole:C_Radial_D8_L11.5_P3.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 564BEF20
+Path = /564578EA
+Reference = C7;
+ValeurCmp = 10p;
+IdModule  = Capacitors_ThroughHole:C_Disc_D6_P5;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B223B
+Path = /5645623B
+Reference = RV1;
+ValeurCmp = 500;
+IdModule  = Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B216E
+Path = /5645F05F
+Reference = R11;
+ValeurCmp = 470;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B2168
+Path = /56455EAB
+Reference = R10;
+ValeurCmp = 1.2k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B2162
+Path = /56455FE8
+Reference = R9;
+ValeurCmp = 330;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B2156
+Path = /5645EF48
+Reference = R7;
+ValeurCmp = 470;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B2144
+Path = /564B2D9C
+Reference = R4;
+ValeurCmp = 0.22;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B2138
+Path = /564ACD32
+Reference = R2;
+ValeurCmp = 0.22;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 566AB186
+Path = /564BFF29
+Reference = R1;
+ValeurCmp = 100;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 566AB18B
+Path = /564C0297
+Reference = R5;
+ValeurCmp = 100;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 566D5B8E
+Path = /564B7F40
+Reference = C2;
+ValeurCmp = 0.1u;
+IdModule  = Capacitors_ThroughHole:C_Rect_L18_W6_H12_P15;
+EndCmp
+
+BeginCmp
+TimeStamp = 566D5B93
+Path = /564548D5
+Reference = C4;
+ValeurCmp = 0.1u;
+IdModule  = Capacitors_ThroughHole:C_Rect_L18_W6_H12_P15;
+EndCmp
+
+BeginCmp
+TimeStamp = 566D5B98
+Path = /564BB575
+Reference = C6;
+ValeurCmp = 0.1u;
+IdModule  = Capacitors_ThroughHole:C_Rect_L18_W6_H12_P15;
+EndCmp
+
+BeginCmp
+TimeStamp = 566D5B9D
+Path = /56454F9D
+Reference = C10;
+ValeurCmp = 0.1u;
+IdModule  = Capacitors_ThroughHole:C_Rect_L18_W6_H12_P15;
+EndCmp
+
+BeginCmp
+TimeStamp = 566D6CDD
+Path = /566D9967
+Reference = P3;
+ValeurCmp = CONN_01X01;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = 566D6CE2
+Path = /566D9ADA
+Reference = P4;
+ValeurCmp = CONN_01X01;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = 566D6CE7
+Path = /566DBC24
+Reference = P5;
+ValeurCmp = CONN_01X01;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = 566D75C5
+Path = /566B0FD9
+Reference = R15;
+ValeurCmp = 10;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 566D75C0
+Path = /566B1404
+Reference = R14;
+ValeurCmp = 10;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 566D75BB
+Path = /5645FC49
+Reference = R8;
+ValeurCmp = 7.5k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B217A
+Path = /56456E31
+Reference = R13;
+ValeurCmp = 470;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 564B2150
+Path = /564583DC
+Reference = R6;
+ValeurCmp = 33k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+EndListe
